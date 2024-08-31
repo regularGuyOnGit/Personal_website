@@ -1,0 +1,52 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Audiowide&family=Barriecito&family=Bebas+Neue&family=Mochiy+Pop+One&family=Playwrite+CZ:wght@100..400&display=swap");
+#root {
+  background-color: rgb(249, 246, 238);
+}
+/* these are from aboutus JSX  */
+.dynamicTyped {
+  font-family: "Barriecito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: rgb(145, 10, 103);
+}
+.staticallyTyped {
+  font-family: "Mochiy Pop One", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+#techIUse,
+#featuredProjects {
+  font-family: "Barriecito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: rgb(145, 10, 103);
+  font-size: 1.3rem;
+  padding: 0.3rem;
+}
+.displayIMG {
+  box-shadow: 0.1rem 0.1rem 1rem rgb(145, 20, 103);
+  /* background-color: rgb(130, 6, 89) */
+}
+.footerText {
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+.rights {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  text-align: center;
+  color: aliceblue;
+  padding-top: 0.5rem;
+}
+.cvDownload:hover {
+  color: rgb(0, 191, 255);
+}
